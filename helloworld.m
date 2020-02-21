@@ -11,3 +11,11 @@ disp(my_number)
 my_message = 'Hello world! AGAIN!';
 
 disp(my_message)
+
+a = 1;
+b = a + 5;
+disp(b)
+
+a = 8;
+b = a + 5;
+disp(b)
