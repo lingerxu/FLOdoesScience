@@ -88,7 +88,7 @@ ggplot(midwest, aes(x=percbelowpoverty, y=percollege)) +
 plot(g3)
 
 
-# saving th lastest plot, width and height are in inches
+# saving the latest plot, width and height are in inches
 ggsave("population6.png", width = 8, height = 6)
 
 

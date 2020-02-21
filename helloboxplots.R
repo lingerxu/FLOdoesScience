@@ -14,3 +14,5 @@ ggplot(sampledata,aes(x=continent, y=lifeExp, fill=continent)) +
   geom_boxplot() +
   geom_jitter(width=0.1, alpha=0.2)
 
+# saving the latest plot, width and height are in inches
+ggsave("mydataplot.png", width = 8, height = 6)
